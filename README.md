@@ -10,3 +10,10 @@ go run main.go
 // -dir=./static/        // 文件目录
 go run main.go -addr=127.0.0.1:8426 -dir=./static/
 ```
+
+## build
+
+```
+chmod +x build.sh
+./build.sh
+```
