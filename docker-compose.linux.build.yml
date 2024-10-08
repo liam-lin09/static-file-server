@@ -1,0 +1,16 @@
+# 使用 docker 运行项目。
+# 运行命令：
+# docker compose -f docker-compose.linux.build.yml up
+services:
+  build:
+    image: "golang:1.23"
+    user: "root"
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command:
+      - sh
+      - -c
+      - |
+        chmod +x ./build.sh
+        ./build.sh
