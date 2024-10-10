@@ -1,5 +1,11 @@
 # 简单的服务器
 
+## 使用
+
+1. [下载](https://github.com/liam-lin09/static-file-server/packages)
+2. 解压
+3. 运行: `./static-file-server -addr=127.0.0.1:8426 -dir=./static/`
+
 ## dev run
 
 ```
